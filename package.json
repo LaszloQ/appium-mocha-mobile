@@ -1,0 +1,19 @@
+{
+  "name": "ios-node-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "native": "mocha --timeout 200000 native.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.2.0",
+    "wd": "^1.10.3",
+    "wdio-mocha-framework": "^0.6.3",
+    "webdriverio": "^4.7.1"
+  }
+}
