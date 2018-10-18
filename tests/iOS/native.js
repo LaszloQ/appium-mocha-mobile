@@ -26,7 +26,7 @@ describe("Simple cases", function() {
 
         describe("test - app - addition", function() {
 
-            it("add - 3 - 3", function() {
+            it.only("add - 3 - 3", function() {
               return client
                 .element("~IntegerA").setValue("3")
                 .element("~IntegerB").setValue("3")
@@ -38,7 +38,7 @@ describe("Simple cases", function() {
             });
 
 
-            it.only( "check alert", function( ) {
+            it( "check alert", function( ) {
               return client
                 .click( "~show alert" )
 
