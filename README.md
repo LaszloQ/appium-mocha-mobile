@@ -1,15 +1,23 @@
 # Setup
 ## Tools needed to be installed
-* Node
-* Homebrew
-* Carthage
-* Appium
-* Appium doctor
+* [NodeJS](https://nodejs.org/en/download/current/)
+* For Mac: 
+  * To install homebrew, enter the following line in the terminal  
+  ```javascript 
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  ```
+* For running tests on iOS simulators:
+  * [Carthage](https://github.com/Carthage/Carthage)
+  * [Xcode](https://developer.apple.com/xcode/)
+* For running tests on Android emulators:
+  *  [Android Studio](https://developer.android.com/studio/)
+* [Appium](https://github.com/appium/appium-desktop/releases)
+* [Appium doctor](https://github.com/appium/appium-doctor)
 * Platform specific drivers
-* Webdriverio
-* Mocha
-* Xcode
-* Android SDK
+  * XCUIT
+  * Espresso
+* [Webdriverio](https://www.npmjs.com/package/webdriverio)
+* [Mocha](https://www.npmjs.com/package/mocha)
 ### Steps
 * Install
 * Adding environment variables
